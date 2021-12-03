@@ -679,6 +679,19 @@ p {
     font-size: 15px;
 }
 
+.cite_name
+{
+    color: black;
+}
+
+.portofolio_title
+{
+    font-size: 21px;
+}
+.row
+{
+    text-align: center;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
