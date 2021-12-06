@@ -411,6 +411,9 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    .blockquote{
+        border-left: none;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -446,7 +449,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
+    margin-top: 12px;
     margin-bottom: 20px;
 }
 
@@ -594,6 +597,7 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -760,7 +764,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -858,6 +862,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .blockquote{
+        border-left: none;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -920,6 +927,15 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+    }
+    #row{
+        margin: auto;
+    }
+    .text-center{
+        margin-bottom: 20px;
+    }
+    .portfolio-row{
+        margin: 0 0;
     }
     .b-parallax {
         background-attachment: scroll;
