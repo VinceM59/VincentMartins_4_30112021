@@ -937,6 +937,9 @@ h4 {
     .portfolio-row{
         margin: 0 0;
     }
+    .texture-paper::before{
+        background: none;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
